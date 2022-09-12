@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+:root {
+  --primary-color: rgb(6, 6, 163);
+}
+
+body {
+  background: tan;
+}
+a {
+  color: var(--primary-color);
+  padding: 1rem;
+}
+
+a:hover {
+  text-decoration: none;
+  color: aliceblue;
+}
